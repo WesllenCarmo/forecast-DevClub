@@ -14,6 +14,8 @@ This project was made in the video lesson of how to create a foreact app in Reac
 
 - How to call and get data from an API using Axios
 - How to use UseState and UseRef to catch the cities' name from an input element to get its data from the API
+- How to hide the API key from the project and create a .env.example
+- Present tense in commit is the standart in web development
 
 ## Skills
 
