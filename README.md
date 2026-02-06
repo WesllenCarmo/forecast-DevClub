@@ -1,5 +1,5 @@
 
-# Foreacast - DevClub
+# Forecast - DevClub
 
 The project is a single-page forecast application built with <a href="https://openweathermap.org/">OpenWeather API</a>.
     
@@ -30,5 +30,6 @@ If you have any questions or suggestions about this project, feel free to contac
 
 - [@WesllenCarmo](https://www.github.com/WesllenCarmo) - Web Developer
 - [@rodolfomori](https://github.com/rodolfomori) - Instructor
+
 
 
