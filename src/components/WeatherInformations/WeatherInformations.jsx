@@ -1,16 +1,16 @@
-function WeatherInformations({ weatherInfo }) {
-    if (!weatherInfo.weather) {
+function WeatherInformations({ forecast }) {
+    if (!forecast.weather) {
         return null;
     }
     
     return (
         <div>
             <div>
-                <h2>{weatherInfo.name}</h2>
+                <h2>{forecast.name}</h2>
             </div>
             <div>
-                <img src={`https://openweathermap.org/payload/api/media/file/${weatherInfo.weather[0].icon}.png`} alt="Weather Icon" />
-                <p>{Math.round(weatherInfo.main.temp)}°C</p>
+                <img src={`https://openweathermap.org/payload/api/media/file/${forecast.weather[0].icon}.png`} alt="Weather Icon" />
+                <p>{Math.round(forecast.main.temp)}°C</p>
             </div>
         </div>
     )
