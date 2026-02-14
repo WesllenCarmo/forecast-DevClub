@@ -4,6 +4,17 @@ function WeatherInformations5Days({ forecast5Days }) {
         return null;
     }
     console.log(forecast5Days);
+    let dailyForecast = {}
+
+    for(let forecast of forecast5Days.list) {
+        const date = new Date(forecast.dt * 1000).toLocaleDateString()
+
+        if (!dailyForecast[date]) {
+            dailyForecast[date] = forecast;
+        }
+
+    }
+    console.log(dailyForecast);
     
     return (
         <div className={styles.weatherContainer}>
