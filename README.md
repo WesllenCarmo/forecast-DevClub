@@ -16,13 +16,15 @@ This project was made in the video lesson of how to create a foreact app in Reac
 - How to use UseState and UseRef to catch the cities' name from an input element to get its data from the API
 - How to hide the API key from the project and create a .env.example
 - Present tense in commit is the standart in web development
+- How to style components and elements which receive data from an API
 
 ## Skills
 
-[![](https://skillicons.dev/icons?i=react,html)](https://skillicons.dev)
+[![](https://skillicons.dev/icons?i=react,html,css3)](https://skillicons.dev)
 
 - React.js
 - HTML5
+- CSS3
   
 ## Support
 
@@ -32,6 +34,7 @@ If you have any questions or suggestions about this project, feel free to contac
 
 - [@WesllenCarmo](https://www.github.com/WesllenCarmo) - Web Developer
 - [@rodolfomori](https://github.com/rodolfomori) - Instructor
+
 
 
 
