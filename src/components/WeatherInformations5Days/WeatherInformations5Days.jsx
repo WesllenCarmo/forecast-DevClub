@@ -13,18 +13,15 @@ function WeatherInformations5Days({ forecast5Days }) {
         }
 
     }
-    // Pega os próximos 5 dias, ignorando o dia atual
     const nextFiveDays = Object.values(dailyForecast).slice(1,6)
-    // converte a data para o formato "[dia da semana], [dia do mês]"
     function convertDate(date) {
         const newDate = new Date(date * 1000).toLocaleDateString('pt-BR', { weekday: 'long', day: '2-digit'})
         return newDate;
     }
     
     return (
-        // exibe as informações da previsão para os próximos 5 dias
         <div className={styles.weatherContainer}>
-            <p>Previsão dos Próximos 5 Dias</p>
+            <h3>Previsão dos Próximos 5 Dias</h3>
             {nextFiveDays.map(forecast => (
                 <div key={forecast.dt}>
                     <p>{convertDate(forecast.dt)}</p>
